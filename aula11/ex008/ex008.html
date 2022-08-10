@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu país</title>
+    <style>
+        body {
+            background-color: rgb(52, 47, 40);
+            color: antiquewhite;
+            text-align: center;
+        }
+
+        div#resp {
+            text-align: left;
+            margin-left: 25%;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Onde você nasceu?</h1>
+    <p>Digite o seu país de origem <input type="text" Name="txtpais" id="txtpais"></p>
+    <input type="button" value="verificar" onclick="clicar()">
+    <div id="resp">resposta: </div>
+    <script>
+        
+        function clicar(){
+            var pais = window.document.querySelector('input#txtpais')
+            var resp = window.document.getElementById('resp')
+            var reposta = pais.value
+            
+            if (pais === brasil || pais === Brasil){
+                resp.innerHTML = 'você é brasileiro'
+            }
+                resp.innerHTML = 'você é estrangeiro'
+               
+                
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javacript</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>ja me livrei da maldição</p>
+    <script>
+      var nome = (window.prompt('Digite um nome:'))
+      document.writeln(`Óla, <strong>${nome}</strong>! Seu nome contém ${nome.length} letras <br/>`)
+      document.writeln(`com letras maiúsculas fica assim: ${nome.toUpperCase()} <br/>`)
+      document.write(`em minúscula vai fica assim: ${nome.toLowerCase()}`)
+    </script>
+</body>
+</html>

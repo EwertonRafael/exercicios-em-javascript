@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(71, 131, 131);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-stretch: ultra-condensed;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.38);
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+div#msg {
+    background-color: rgba(226, 162, 43, 0.655);
+    border: 2px solid;
+    background-image: repeating-linear-gradient(to right, #9a329c, transparent);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
